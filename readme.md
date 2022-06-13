@@ -58,7 +58,7 @@ proxies:
 # usage
 ```
 pip install requirements.txt
- ./main.py -i test.yaml -o serverlist.txt -d https://dns.cloudflare.com/dns-query
+python ./main.py -i test.yaml -o serverlist.txt -d https://dns.cloudflare.com/dns-query
 ```
 ```
 options:
