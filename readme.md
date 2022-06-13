@@ -58,9 +58,11 @@ proxies:
 # usage
 ```
  ./main.py -i test.yaml -o serverlist.txt -DNS https://223.6.6.6/dns-query
- 
+
 options:
   -h, --help            show this help message and exit
   -i INPUTFILE, --inputFile INPUTFILE
-  -o OUTPUTFILE, --outputFile OUTPUTFILE
-  -d DNS, --DNS DNS```
+  -o OUTPUTFILE, --outputFile OUTPUTFILE default='serverlist.txt'
+  -d DNS, --DNS DNS default="https://dns.cloudflare.com/dns-query"
+  
+  ```
