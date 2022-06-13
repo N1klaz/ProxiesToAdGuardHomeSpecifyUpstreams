@@ -57,8 +57,10 @@ proxies:
 ```
 # usage
 ```
+pip install requirements.txt
  ./main.py -i test.yaml -o serverlist.txt -DNS https://223.6.6.6/dns-query
-
+```
+```
 options:
   -h, --help            show this help message and exit
   -i INPUTFILE, --inputFile INPUTFILE
